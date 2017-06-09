@@ -12,11 +12,15 @@ Quick Start
 
 3) Build, install, run
 
+First deploy:
+
     0-build.sh
     1-deploy.sh
     2-run.sh
 
-4) Change
+4) Change cycle
+
+Update deploy:
 
     # Edit handler.go
 
