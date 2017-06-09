@@ -13,3 +13,7 @@ go get -u -d github.com/eawsy/aws-lambda-go-core/...
 #make
 
 docker run --rm -e HANDLER=handler -e PACKAGE=handler -v ~/go:/go -v $PWD:/build -w /build eawsy/aws-lambda-go-shim:latest make all
+
+echo "\npackage handler.zip built:\n"
+
+unzip -l handler.zip
