@@ -3,13 +3,24 @@ golang aws lambda hello world
 
 Using https://github.com/eawsy/aws-lambda-go-shim
 
-Build
-=====
+Quick Start
+===========
 
-    ./build.sh
+1) Install docker
 
-Deploy
-======
+2) Add AWS permissions to create IAM roles
 
-Runtime: python2.7
-Handler: handler.Handle
+3) Build, install, run
+
+    0-build.sh
+    1-deploy.sh
+    2-run.sh
+
+4) Change
+
+    # Edit handler.go
+
+    0-build.sh  ;# rebuild
+    3-update.sh ;# upload
+    2-run.sh    ;# test
+
