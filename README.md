@@ -14,9 +14,10 @@ Quick Start
 
 First deploy:
 
-    0-build.sh
-    1-deploy.sh
-    2-run.sh
+    0-fetch.sh
+    1-build.sh
+    2-deploy.sh
+    3-run.sh
 
 4) Change cycle
 
@@ -24,7 +25,7 @@ Update deploy:
 
     # Edit handler.go
 
-    0-build.sh  ;# rebuild
-    3-update.sh ;# upload
-    2-run.sh    ;# test
+    1-build.sh  ;# rebuild
+    4-update.sh ;# upload
+    3-run.sh    ;# test
 
